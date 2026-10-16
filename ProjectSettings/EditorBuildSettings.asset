@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 1d7e6fc6cacff204999bb8f5cce5641a
   - enabled: 1
-    path: Assets/Scenes/GroundPlane.unity
-    guid: b7af3a3972d26b04bba0f254919a3d96
-  - enabled: 1
     path: Assets/Scenes/ImageTarget.unity
     guid: cd25fa6c9439a504caf53694892ff264
+  - enabled: 1
+    path: Assets/Scenes/GroundPlane.unity
+    guid: b7af3a3972d26b04bba0f254919a3d96
   - enabled: 1
     path: Assets/Scenes/MidAir.unity
     guid: 35eb72e98984840479fb48b798827b97

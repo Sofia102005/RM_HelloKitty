@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class CharacterTarget : MonoBehaviour
 {
-    public AudioClip sound;
     AudioSource src;
 
     void Start()
     {
-        src = gameObject.AddComponent<AudioSource>();
+        src = GetComponentInChildren<AudioSource>(true);
         var handler = GetComponent<DefaultObserverEventHandler>();
-        handler.OnTargetFound.AddListener(() => src.PlayOneShot(sound));
+        handler.OnTargetFound.AddListener(() => { if (src != null) src.Play(); });
+        handler.OnTargetLost.AddListener(() => { if (src != null) src.Stop(); });
     }
 }

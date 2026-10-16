@@ -2,37 +2,55 @@ using UnityEngine;
 
 public class ModelSwitcher : MonoBehaviour
 {
-    public GameObject[] models;
-    public AudioClip[] sounds;
+    public GameObject[] models;   // los 10 personajes, cada uno con su AudioSource
     int index = 0;
-    AudioSource src;
+    bool targetVisible = false;
 
     void Start()
     {
-        src = gameObject.AddComponent<AudioSource>();
-        // Activa el primer modelo sin reproducir audio al iniciar la escena
-        SetModelActive(0);
-    }
+        Show(0, false);
 
-    public void Next() => ChangeModel((index + 1) % models.Length);
-    public void Previous() => ChangeModel((index - 1 + models.Length) % models.Length);
-
-    void ChangeModel(int i)
-    {
-        SetModelActive(i);
-        if (sounds != null && i < sounds.Length && sounds[i] != null)
+        var handler = GetComponent<DefaultObserverEventHandler>();
+        if (handler != null)
         {
-            src.PlayOneShot(sounds[i]);
+            handler.OnTargetFound.AddListener(() =>
+            {
+                targetVisible = true;
+                PlayCurrent();
+            });
+            handler.OnTargetLost.AddListener(() =>
+            {
+                targetVisible = false;
+                StopAll();
+            });
         }
     }
 
-    void SetModelActive(int i)
+    public void Next()     => Show((index + 1) % models.Length, true);
+    public void Previous() => Show((index - 1 + models.Length) % models.Length, true);
+
+    void Show(int i, bool playSound)
     {
+        StopAll();
         index = i;
         for (int k = 0; k < models.Length; k++)
+            models[k].SetActive(k == i);
+
+        if (playSound) PlayCurrent();
+    }
+
+    void PlayCurrent()
+    {
+        var audio = models[index].GetComponent<AudioSource>();
+        if (audio != null && audio.clip != null) audio.Play();
+    }
+
+    void StopAll()
+    {
+        foreach (var m in models)
         {
-            if (models[k] != null)
-                models[k].SetActive(k == i);
+            var a = m.GetComponent<AudioSource>();
+            if (a != null) a.Stop();
         }
     }
 }
