@@ -529,7 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -633,15 +633,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4f22eb3628fbd2b41908e8d93277157a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.09
+      value: 0.084522605
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f22eb3628fbd2b41908e8d93277157a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.09
+      value: 0.08452261
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f22eb3628fbd2b41908e8d93277157a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.09
+      value: 0.084522605
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f22eb3628fbd2b41908e8d93277157a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -649,7 +649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f22eb3628fbd2b41908e8d93277157a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.098
+      value: 0.09203574
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f22eb3628fbd2b41908e8d93277157a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1080,15 +1080,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6284495285543019603, guid: 2ed7ca059c2c9724fb40e0732483681f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.09
+      value: 0.084522605
       objectReference: {fileID: 0}
     - target: {fileID: 6284495285543019603, guid: 2ed7ca059c2c9724fb40e0732483681f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.09
+      value: 0.08452261
       objectReference: {fileID: 0}
     - target: {fileID: 6284495285543019603, guid: 2ed7ca059c2c9724fb40e0732483681f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.09
+      value: 0.084522605
       objectReference: {fileID: 0}
     - target: {fileID: 6284495285543019603, guid: 2ed7ca059c2c9724fb40e0732483681f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1096,7 +1096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6284495285543019603, guid: 2ed7ca059c2c9724fb40e0732483681f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.176
+      value: 0.16528864
       objectReference: {fileID: 0}
     - target: {fileID: 6284495285543019603, guid: 2ed7ca059c2c9724fb40e0732483681f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -1425,35 +1425,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.23478504
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.234785
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25
+      value: 0.234785
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 9.313226e-10
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.072
+      value: 0.06761809
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.187
+      value: -0.1756192
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000030908623
+      value: 0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000030908623
+      value: -0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 590181029190826017, guid: e12c4b7e9ccedb142b08abe3a761bb54, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -2258,23 +2258,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7
+      value: 0.6573981
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7
+      value: 0.65739787
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.7
+      value: 0.657398
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.095
+      value: 0.0892183
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2282,11 +2282,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000030908623
+      value: 0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000030908623
+      value: -0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 6040882055059853542, guid: 466f5e578b11d2e4ba8b7a757e521711, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2432,7 +2432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -2557,7 +2557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -2757,7 +2757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -2862,35 +2862,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.18
+      value: 0.16904524
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.18
+      value: 0.16904518
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.18
+      value: 0.16904522
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.0000000018626451
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.041
+      value: 0.038504742
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.166
+      value: -0.15589726
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000030908623
+      value: 0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000030908623
+      value: -0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 2392242731420350006, guid: 5294cdb778ff62e43a626fb2525c3e1f, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2942,15 +2942,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 423ca634476d37f429435d565bce8d58, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.18
+      value: 0.16904521
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 423ca634476d37f429435d565bce8d58, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.18
+      value: 0.16904522
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 423ca634476d37f429435d565bce8d58, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.18
+      value: 0.16904521
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 423ca634476d37f429435d565bce8d58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2958,11 +2958,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 423ca634476d37f429435d565bce8d58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.057
+      value: 0.05353099
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 423ca634476d37f429435d565bce8d58, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.061
+      value: -0.057287544
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 423ca634476d37f429435d565bce8d58, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3122,7 +3122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -3736,19 +3736,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7
+      value: 0.6573981
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7
+      value: 0.65739787
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.7
+      value: 0.657398
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.0000000018626451
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3756,15 +3756,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.175
+      value: -0.16434951
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000030908623
+      value: 0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000030908623
+      value: -0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 999314056867392900, guid: b647fa8a775d8074fa729d4c9ee457e1, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4065,7 +4065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -4311,35 +4311,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.28174207
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.28174204
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.281742
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.0000000018626451
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.016
+      value: 0.015026242
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.166
+      value: -0.15589726
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000030908623
+      value: 0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000030908623
+      value: -0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 7100488545318216075, guid: 967fc748693010c42ae43d60f69c93c8, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4550,7 +4550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -4947,35 +4947,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.18782803
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.18782802
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.187828
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 9.313226e-10
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.053
+      value: 0.04977444
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.159
+      value: -0.14932327
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000030908623
+      value: 0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000030908623
+      value: -0.000000031664964
       objectReference: {fileID: 0}
     - target: {fileID: 2428314074774950253, guid: 4e69af1c83d5684498d8c617392b0f85, type: 3}
       propertyPath: m_LocalRotation.y
@@ -5224,7 +5224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -5638,27 +5638,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.004
+      value: 0.0037565602
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.004
+      value: 0.00375656
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.004
+      value: 0.0037565604
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.054
+      value: 0.05071357
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.083
+      value: 0.077948615
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.104
+      value: -0.09767057
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5666,11 +5666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8884065247978976137, guid: dd792d50fcd04614695419ec1709bf63, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5736,7 +5736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -6040,7 +6040,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.042971946, z: -0, w: 0.9990763}
   m_LocalPosition: {x: 0, y: 0.08, z: 0}
-  m_LocalScale: {x: 0.93914, y: 0.93914, z: 0.93914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 514516801}
@@ -6069,7 +6069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -6264,27 +6264,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 534b2aef1a907094d869f7983416c528, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.08
+      value: 0.0751312
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 534b2aef1a907094d869f7983416c528, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.08
+      value: 0.07513121
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 534b2aef1a907094d869f7983416c528, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.08
+      value: 0.0751312
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 534b2aef1a907094d869f7983416c528, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 534b2aef1a907094d869f7983416c528, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.225
+      value: 0.2113065
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 534b2aef1a907094d869f7983416c528, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.067
+      value: 0.06292239
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 534b2aef1a907094d869f7983416c528, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6448,6 +6448,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 296851270}
+  - {fileID: 52393852}
   - {fileID: 35634425}
   - {fileID: 752743844}
   - {fileID: 1317591379}
@@ -6462,6 +6463,5 @@ SceneRoots:
   - {fileID: 607520153}
   - {fileID: 2056275601}
   - {fileID: 860432196}
-  - {fileID: 52393852}
   - {fileID: 1251759496}
   - {fileID: 1547476294}
